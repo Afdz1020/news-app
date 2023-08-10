@@ -21,5 +21,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const HeaderH: Story = {
-  args: {},
+  args: {
+    title: 'News App',
+  },
 };
